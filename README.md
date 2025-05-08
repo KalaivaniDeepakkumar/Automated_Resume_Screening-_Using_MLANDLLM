@@ -26,7 +26,7 @@ MongoDB (NoSQL) for storing resumes, job details, and evaluation results.
 
 PyMongo for fast database communication and data retrieval.
 
-#Hardware Requirements:
+# Hardware Requirements:
 Processor: Minimum Intel i5/Ryzen 5; preferred i7/i9 or Ryzen 7/9.
 
 RAM: Minimum 8GB; recommended 16GB+ for smooth ML and LLM execution.
@@ -48,3 +48,6 @@ Internet: Stable broadband for API access and cloud integration.
 6.Real-Time Processing: The system handles high volumes of applications with speed and accuracy, dynamically updating the recruiter dashboard.
 
 7.Dashboard Display & Insights: HR can view detailed feedback, seriousness indicators, suitability scores, and AI-generated summaries to assist in fair decision-making.
+
+# Conclusion
+The Automated Resume Screening System effectively combines machine learning and large language models to revolutionize recruitment. Using a Random Forest classifier, resumes are accurately matched to job roles with up to 95% accuracy. Google’s Gemini LLM enhances evaluation by analyzing candidates across technical skills, achievements, education, experience, and skill relevance, while ensuring unbiased assessments. MongoDB ensures secure and scalable data storage throughout the pipeline. Overall, the system streamlines screening and improves hiring fairness through smart, modular automation.
