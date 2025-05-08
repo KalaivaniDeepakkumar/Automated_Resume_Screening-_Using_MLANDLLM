@@ -5,14 +5,17 @@ The proposed system revolutionizes recruitment by automating resume screening us
 # System requirements
 # Development Environment:
 Google Colab for model development and testing with GPU support.
+
 Python 3 is the primary programming language for ease and ML library support.
 
 # Core Libraries & Tools:
 Scikit-learn for building the Random Forest classifier.
+
 Google Gemini API for LLM-based resume evaluation and bias-free scoring.
 
 # Data Parsing & NLP:
 PyPDF2 and docx2txt for extracting text from resumes (PDF, DOCX, TXT).
+
 NLTK/spaCy for text preprocessing and entity recognition.
 
 # Dashboard & Interface:
@@ -20,19 +23,28 @@ Streamlit for building an interactive HR dashboard for resume viewing, scoring, 
 
 # Database & Integration:
 MongoDB (NoSQL) for storing resumes, job details, and evaluation results.
+
 PyMongo for fast database communication and data retrieval.
 
 #Hardware Requirements:
 Processor: Minimum Intel i5/Ryzen 5; preferred i7/i9 or Ryzen 7/9.
+
 RAM: Minimum 8GB; recommended 16GB+ for smooth ML and LLM execution.
+
 Storage: At least 50GB SSD for fast access.
 
 Internet: Stable broadband for API access and cloud integration.
 # Project Workflow
 1.Frontend Interface (Streamlit): HR professionals upload job requirements and candidate resumes, view AI-generated assessments, and interact with a user-friendly dashboard.
+
 2.Resume Submission & Storage: Uploaded resumes are stored in MongoDB, ensuring scalable and fast access to candidate profiles and job data.
+
 3.Document Parsing Module: Extracts text from various resume formats/layouts to standardize data for further processing.
+
 4.Initial Classification (Random Forest): Resumes are filtered and matched to the most relevant job roles with 94–95% accuracy using a trained Random Forest classifier.
+
 5.Deep Analysis (Gemini LLM): Cleared resumes undergo semantic evaluation using Gemini-1.5 LLM, scoring candidates (0–100) based on skills, experience, education, and relevance—while ensuring fairness by omitting demographic info.
+
 6.Real-Time Processing: The system handles high volumes of applications with speed and accuracy, dynamically updating the recruiter dashboard.
+
 7.Dashboard Display & Insights: HR can view detailed feedback, seriousness indicators, suitability scores, and AI-generated summaries to assist in fair decision-making.
