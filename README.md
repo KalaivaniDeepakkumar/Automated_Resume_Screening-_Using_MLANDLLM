@@ -55,4 +55,5 @@ The Automated Resume Screening System effectively combines machine learning and 
 
 # DEPLOYMENT LINK
 HR INTERFACE - https://resumescreening-dmsfdeqtqngyxfpaljh4dn.streamlit.app/
+
 CANDIDATE INTERFACE - https://resumescreening-9ygshxjdfavm3vnwuhzyrg.streamlit.app/
