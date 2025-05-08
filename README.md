@@ -51,3 +51,8 @@ Internet: Stable broadband for API access and cloud integration.
 
 # Conclusion
 The Automated Resume Screening System effectively combines machine learning and large language models to revolutionize recruitment. Using a Random Forest classifier, resumes are accurately matched to job roles with up to 95% accuracy. Google’s Gemini LLM enhances evaluation by analyzing candidates across technical skills, achievements, education, experience, and skill relevance, while ensuring unbiased assessments. MongoDB ensures secure and scalable data storage throughout the pipeline. Overall, the system streamlines screening and improves hiring fairness through smart, modular automation.
+
+
+# DEPLOYMENT LINK
+HR INTERFACE - https://resumescreening-dmsfdeqtqngyxfpaljh4dn.streamlit.app/
+CANDIDATE INTERFACE - https://resumescreening-9ygshxjdfavm3vnwuhzyrg.streamlit.app/
